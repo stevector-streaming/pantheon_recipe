@@ -1,0 +1,17 @@
+{
+    "name": "pantheon-systems/pantheon_drupal_recipe",
+    "description": "Adds modules and configuration recommended by Pantheon",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Steve Persch",
+            "homepage": "https://pantheon.io",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/pantheon_advanced_page_cache": "^2.0",
+        "drupal/redis": "^1.5"
+    }
+}
