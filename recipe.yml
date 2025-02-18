@@ -1,0 +1,6 @@
+name: 'Pantheon recommendations'
+description: 'Adds modules and configurations that should be present on most Drupal sites running on Pantheon'
+type: 'Site'
+install:
+  - pantheon_advanced_page_cache
+  - redis
